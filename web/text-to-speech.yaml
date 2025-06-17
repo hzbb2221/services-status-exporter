@@ -1,0 +1,11 @@
+url: "http://speech.opsnote.top/"
+method: "GET"
+headers:
+  Content-Type: "application/json"
+body: ''
+interval_seconds: 30  # 监控间隔时间（秒）
+timeout_seconds: 10   # 请求超时时间（秒）
+labels:
+  env: "测试环境"
+  service: "文字转语音服务前端"
+  type: "web"

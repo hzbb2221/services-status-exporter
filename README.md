@@ -87,8 +87,8 @@ docker run -d \
 | `method` | string | ❌ | GET | HTTP请求方法（GET/POST/PUT等） |
 | `headers` | map | ❌ | {} | 自定义请求头 |
 | `body` | string | ❌ | "" | 请求体内容（存在时自动设置为POST） |
-| `interval_seconds` | int | ❌ | 30 | 监控间隔时间（秒） |
-| `timeout_seconds` | int | ❌ | 10 | 请求超时时间（秒） |
+| `interval_seconds` | int | ❌ | 60 | 监控间隔时间（秒） |
+| `timeout_seconds` | int | ❌ | 30 | 请求超时时间（秒） |
 | `skip_verify` | bool | ❌ | false | 是否跳过HTTPS证书验证 |
 | `labels` | map | ❌ | {} | 自定义标签，支持字段：`env`（环境）、`service`（服务名）、`type`（类型） |
 
